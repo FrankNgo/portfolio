@@ -2,14 +2,13 @@
 <h1>Frank Ngo</h1>
 
 <ul id="nav">
-  <li><a class="active" href="#home">Home </a></li>
-  <li><a href="#news">My Work</a></li>
-  <li><a href="#contact">Services</a></li>
-  <li><a href="#about">About Me</a></li>
-  <li><a href="#about">Contact</a></li>
-  <li><a href="#about">Blog</a></li>
+  <li><a class="active" routerLink="">Home </a></li>
+  <li><a routerLink="work">My Work</a></li>
+  <li><a routerLink="services">Services</a></li>
+  <li><a routerLink="about">About Me</a></li>
+  <li><a routerLink="contact">Contact</a></li>
+  <li><a routerLink="blog">Blog</a></li>
 </ul>
 <br><br><br>
 <hr>
-
-<img src="../assets/img/Profile.JPG" alt="Profile Picture">
+<router-outlet></router-outlet>
