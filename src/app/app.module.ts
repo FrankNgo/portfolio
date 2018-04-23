@@ -21,7 +21,7 @@ import { BlogComponent } from './blog/blog.component';
     BlogComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule,
     HttpModule,
     routing

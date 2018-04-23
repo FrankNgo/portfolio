@@ -6,7 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { AppComponent } from './app.component';
-import { routing } from './app.routing';
+
 
 const appRoutes: Routes = [
   {
